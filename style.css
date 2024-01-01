@@ -154,8 +154,8 @@ button {
   color: #fff;
   text-align: center;
   text-decoration: none;
-  background-color: #4CAF50; /* Change to your desired button color */
-  box-shadow: 0 5px 0 #388E3C; /* Darker color for bottom shadow */
+  background-color: #000000; /* Change to your desired button color */
+  box-shadow: 0 5px 0 #000000; /* Darker color for bottom shadow */
   transition: transform 0.2s, box-shadow 0.2s;
 }
 
@@ -181,7 +181,7 @@ button::after {
 
 button:hover {
   transform: translateY(2px);
-  box-shadow: 0 3px 0 #388E3C; /* Adjust shadow on hover */
+  box-shadow: 0 3px 0 #000000; /* Adjust shadow on hover */
 }
 
 button:hover::before,
