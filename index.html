@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>My Portfolio</title>
+  </head>
+  <body>
+    <div class="portfolio-container">
+      <div class="project" onclick="showDetails('project1')">
+        <img src="project1-thumbnail.jpg" alt="Project 1 Thumbnail" />
+        <div class="overlay"></div>
+        <div class="project-details" id="project1-details">
+          <h2>Project 1</h2>
+          <p>
+            This is a description of Project 1. Lorem ipsum dolor sit amet,
+            consectetur adipiscing elit.
+          </p>
+          <a href="https://www.project1.com" target="_blank">Visit Project</a>
+        </div>
+      </div>
+
+      <div class="project" onclick="showDetails('project2')">
+        <img src="project2-thumbnail.jpg" alt="Project 2 Thumbnail" />
+        <div class="overlay"></div>
+        <div class="project-details" id="project2-details">
+          <h2>Project 2</h2>
+          <p>
+            This is a description of Project 2. Lorem ipsum dolor sit amet,
+            consectetur adipiscing elit.
+          </p>
+          <a href="https://www.project2.com" target="_blank">Visit Project</a>
+        </div>
+      </div>
+
+      <!-- Add more projects as needed -->
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
