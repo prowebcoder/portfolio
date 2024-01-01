@@ -7,9 +7,50 @@
     <title>My Portfolio</title>
   </head>
   <body>
-    <div class="portfolio-container">
-      <div class="project" onclick="showDetails('project1')">
-        <img src="project1-thumbnail.jpg" alt="Project 1 Thumbnail" />
+    <header>
+      <div class="logo">
+        <img src="pp.jpg" alt="Logo" />
+      </div>
+      <nav>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <div class="profile">
+      <img src="about.png" alt="Your Profile Image" />
+      <h1 class="typing-text-1">
+        <span class="waiting"> Hi</span>, I'm
+        <span class="highlight">Rahul Dhiman</span>.
+      </h1>
+      <h1 class="typing-text-2">
+        <span class="waiting">I'm a passionate web developer.</span>
+      </h1>
+    </div>
+    <div class="modal" id="projectModal">
+      <div class="modal-content">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <img src="" alt="Project Image" id="modalImage" />
+      </div>
+    </div>
+
+    <div class="categories">
+      <button onclick="filterProjects('all')">All</button>
+      <button onclick="filterProjects('shopify')">Shopify</button>
+      <button onclick="filterProjects('squarespace')">Squarespace</button>
+      <button onclick="filterProjects('wordpress')">WordPress</button>
+      <button onclick="filterProjects('javascript')">JavaScript</button>
+      <button onclick="filterProjects('ecommerce')">Ecommerce</button>
+    </div>
+
+    <div class="portfolio-container" id="portfolioContainer">
+      <div
+        class="project"
+        onclick="showDetails('project1','smart4change.png')"
+        data-categories="shopify,ecommerce"
+      >
+        <img src="smart4change.png" alt="Project 1 Thumbnail" />
         <div class="overlay"></div>
         <div class="project-details" id="project1-details">
           <h2>Project 1</h2>
@@ -21,8 +62,76 @@
         </div>
       </div>
 
-      <div class="project" onclick="showDetails('project2')">
-        <img src="project2-thumbnail.jpg" alt="Project 2 Thumbnail" />
+      <div
+        class="project"
+        onclick="showDetails('project2')"
+        data-categories="shopify,ecommerce"
+      >
+        <img src="dear vinyl.png" alt="Project 2 Thumbnail" />
+        <div class="overlay"></div>
+        <div class="project-details" id="project2-details">
+          <h2>Project 2</h2>
+          <p>
+            This is a description of Project 2. Lorem ipsum dolor sit amet,
+            consectetur adipiscing elit.
+          </p>
+          <a href="https://www.project2.com" target="_blank">Visit Project</a>
+        </div>
+      </div>
+      <div
+        class="project"
+        onclick="showDetails('project2')"
+        data-categories="shopify"
+      >
+        <img src="ourcuffs.png" alt="Project 2 Thumbnail" />
+        <div class="overlay"></div>
+        <div class="project-details" id="project2-details">
+          <h2>Project 2</h2>
+          <p>
+            This is a description of Project 2. Lorem ipsum dolor sit amet,
+            consectetur adipiscing elit.
+          </p>
+          <a href="https://www.project2.com" target="_blank">Visit Project</a>
+        </div>
+      </div>
+      <div
+        class="project"
+        onclick="showDetails('project2')"
+        data-categories="shopify,ecommerce"
+      >
+        <img src="p3-india.png" alt="Project 2 Thumbnail" />
+        <div class="overlay"></div>
+        <div class="project-details" id="project2-details">
+          <h2>Project 2</h2>
+          <p>
+            This is a description of Project 2. Lorem ipsum dolor sit amet,
+            consectetur adipiscing elit.
+          </p>
+          <a href="https://www.project2.com" target="_blank">Visit Project</a>
+        </div>
+      </div>
+      <div
+        class="project"
+        onclick="showDetails('project2')"
+        data-categories="shopify,ecommerce"
+      >
+        <img src="Mayofoodz.png" alt="Project 2 Thumbnail" />
+        <div class="overlay"></div>
+        <div class="project-details" id="project2-details">
+          <h2>Project 2</h2>
+          <p>
+            This is a description of Project 2. Lorem ipsum dolor sit amet,
+            consectetur adipiscing elit.
+          </p>
+          <a href="https://www.project2.com" target="_blank">Visit Project</a>
+        </div>
+      </div>
+      <div
+        class="project"
+        onclick="showDetails('project2')"
+        data-categories="shopify,ecommerce"
+      >
+        <img src="labelle.png" alt="Project 2 Thumbnail" />
         <div class="overlay"></div>
         <div class="project-details" id="project2-details">
           <h2>Project 2</h2>
