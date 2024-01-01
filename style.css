@@ -28,6 +28,7 @@ body {
 .profile {
   display: flex;
   align-items: center;
+  justify-content: space-around;
 }
 
 .profile img {
@@ -40,7 +41,7 @@ body {
   white-space: nowrap;
   overflow: hidden;
   border-right: 2px solid #333; /* Cursor effect */
-  max-width: 80%; /* Adjust the maximum width */
+  max-width: 100%; /* Adjust the maximum width */
   margin-bottom: 20px; /* Add some space at the bottom */
   animation: typing 4s steps(30, end), blink-caret 0.5s step-end infinite;
 }
@@ -49,7 +50,7 @@ body {
   white-space: nowrap;
   overflow: hidden;
   border-right: 2px solid #333; /* Cursor effect */
-  max-width: 80%; /* Adjust the maximum width */
+  max-width: 100%; /* Adjust the maximum width */
   margin-bottom: 20px; /* Add some space at the bottom */
   animation: typing 4s steps(30, end), blink-caret 0.5s step-end infinite;
 }
@@ -146,7 +147,7 @@ nav a:hover {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-  max-width: 1000px;
+  max-width: 80%;
   margin: 20px auto;
 }
 
@@ -158,8 +159,8 @@ nav a:hover {
   border-radius: 8px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s;
-  flex: 0 0 calc(50% - 20px); /* Two projects in a row with margin */
-  max-width: calc(50% - 20px);
+  flex: 0 0 calc(33% - 20px); /* Two projects in a row with margin */
+  max-width: calc(33% - 20px);
 }
 
 .project img {

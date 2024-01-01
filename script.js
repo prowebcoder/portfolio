@@ -26,3 +26,44 @@ function filterProjects(category) {
     }
   });
 }
+
+document.addEventListener("DOMContentLoaded", function () {
+  // Initial delay before starting typing-text-1 animation
+  setTimeout(function () {
+    startTypingAnimation(".typing-text-1");
+  }, 500); // Adjust the delay as needed
+});
+
+function startTypingAnimation(elementSelector) {
+  const typingElement = document.querySelector(elementSelector);
+
+  if (!typingElement) {
+    return;
+  }
+
+  const textNodes = getTextNodes(typingElement);
+  let currentCharacter = 0;
+
+  textNodes.forEach((textNode) => {
+    for (let i = 0; i < textNode.textContent.length; i++) {
+      setTimeout(function () {
+        textNode.data += textNode.textContent.charAt(i);
+        textNode.parentElement.classList.add("waiting");
+      }, currentCharacter * 100); // Adjust the delay between characters as needed
+
+      currentCharacter++;
+    }
+  });
+
+  // After all characters are shown in typing-text-1, start typing-text-2
+  setTimeout(function () {
+    const nextElement = typingElement.nextElementSibling;
+    if (nextElement && nextElement.classList.contains("typing-text-2")) {
+      startTypingAnimation(".typing-text-2");
+    }
+  }, currentCharacter * 100 + 1000); // Adjust the delay before starting typing-text-2
+}
+
+function getTextNodes(element) {
+  return Array.from(element.childNodes).filter((node) => node.nodeType === 3); // Text nodes only
+}
