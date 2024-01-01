@@ -7,33 +7,33 @@ textarea {
   padding: 0;
   background-color: #f8f8f8;
 }
-.bounce-hand {
-  animation: bounce 1s infinite 3s; /* Bounce animation starts after 3 seconds */
-  transform-origin: bottom;
-}
+/* Define keyframes for the bounce animation */
 @keyframes bounce {
-  0%,
-  20%,
-  50%,
-  80%,
-  100% {
+  0%, 20%, 50%, 80%, 100% {
     transform: translateY(0);
   }
   40% {
-    transform: translateY(-10px);
+    transform: translateY(-20px);
   }
   60% {
-    transform: translateY(-5px);
+    transform: translateY(-10px);
   }
 }
+
+/* Apply animation to the bounce-hand class */
+.bounce-hand {
+  display: inline-block;
+  animation: bounce 1.5s infinite;
+}
+
 .categories {
   display: flex;
   justify-content: center;
   margin: 60px 0;
 }
 .ttclass {
-  width: 65%;
-  font-size: 2rem;
+  width: 60%;
+  font-size: 1.8rem;
 }
 
 /* (Your existing styles) */
@@ -58,7 +58,7 @@ textarea {
 }
 
 .profile img {
-  width: 30%; /* Adjust the size of your profile image */
+  width: 35%; /* Adjust the size of your profile image */
 
   margin-right: 10px;
 }
@@ -85,7 +85,7 @@ textarea {
   /* Increase the font size */
   white-space: nowrap;
   overflow: hidden;
-  border-right: 2px solid #333; /* Cursor effect */
+  border-right: 0px solid #333; /* Cursor effect */
   max-width: 100%; /* Adjust the maximum width */
   margin-bottom: 20px; /* Add some space at the bottom */
 }
