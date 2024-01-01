@@ -7,6 +7,25 @@ textarea {
   padding: 0;
   background-color: #f8f8f8;
 }
+.bounce-hand {
+  animation: bounce 1s infinite 3s; /* Bounce animation starts after 3 seconds */
+  transform-origin: bottom;
+}
+@keyframes bounce {
+  0%,
+  20%,
+  50%,
+  80%,
+  100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-10px);
+  }
+  60% {
+    transform: translateY(-5px);
+  }
+}
 .categories {
   display: flex;
   justify-content: center;
@@ -60,6 +79,15 @@ textarea {
   max-width: 100%; /* Adjust the maximum width */
   margin-bottom: 20px; /* Add some space at the bottom */
   animation: typing 4s steps(30, end), blink-caret 0.5s step-end infinite;
+}
+
+.typing-text-3 {
+  /* Increase the font size */
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 2px solid #333; /* Cursor effect */
+  max-width: 100%; /* Adjust the maximum width */
+  margin-bottom: 20px; /* Add some space at the bottom */
 }
 
 .highlight {

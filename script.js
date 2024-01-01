@@ -67,3 +67,44 @@ function startTypingAnimation(elementSelector) {
 function getTextNodes(element) {
   return Array.from(element.childNodes).filter((node) => node.nodeType === 3); // Text nodes only
 }
+
+document.addEventListener("DOMContentLoaded", function () {
+  setTimeout(function () {
+    startTypingAnimation(".typing-text-3");
+    animateBounceHand();
+  }, 3000); // Show typing-text-3 after 3 seconds
+});
+
+function startTypingAnimation(elementSelector) {
+  const typingElement = document.querySelector(elementSelector);
+
+  if (!typingElement) {
+    return;
+  }
+
+  const textNodes = getTextNodes(typingElement);
+  let currentCharacter = 0;
+
+  textNodes.forEach((textNode) => {
+    for (let i = 0; i < textNode.textContent.length; i++) {
+      setTimeout(function () {
+        textNode.data += textNode.textContent.charAt(i);
+        textNode.parentElement.classList.add("waiting");
+      }, currentCharacter * 100); // Adjust the delay between characters as needed
+
+      currentCharacter++;
+    }
+  });
+}
+
+function animateBounceHand() {
+  const handElement = document.querySelector(".bounce-hand");
+
+  if (handElement) {
+    handElement.style.visibility = "visible";
+  }
+}
+
+function getTextNodes(element) {
+  return Array.from(element.childNodes).filter((node) => node.nodeType === 3); // Text nodes only
+}
