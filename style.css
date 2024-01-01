@@ -402,3 +402,13 @@ nav a:hover {
   opacity: 0; /* Hide pseudo-elements on hover */
 }
 
+header .footer-links {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  width: 25%;
+  justify-content: flex-end;
+}
+.logo {
+  width: 25%;
+}
