@@ -137,11 +137,58 @@ textarea {
   cursor: pointer;
   border-radius: 5px;
   font-size: 18px;
+  border: 1px solid #000;
 }
 
 .categories button:hover {
   background-color: #ffc500;
 }
+
+button {
+  display: inline-block;
+  padding: 10px 20px;
+  position: relative;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+  background-color: #4CAF50; /* Change to your desired button color */
+  box-shadow: 0 5px 0 #388E3C; /* Darker color for bottom shadow */
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+button::before,
+button::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 50%;
+  top: 0;
+  left: 0;
+  transition: opacity 0.2s;
+}
+
+
+
+button::after {
+  
+  z-index: -1;
+  bottom: 0;
+  transform: translateY(100%);
+}
+
+button:hover {
+  transform: translateY(2px);
+  box-shadow: 0 3px 0 #388E3C; /* Adjust shadow on hover */
+}
+
+button:hover::before,
+button:hover::after {
+  opacity: 0; /* Hide pseudo-elements on hover */
+}
+
 header {
   background-color: #ffc500;
   color: #000000;
@@ -163,9 +210,8 @@ nav ul {
 }
 
 nav li {
-  margin-right: 20px;
+  font-size: 25px;
 }
-
 nav a {
   text-decoration: none;
   color: #000000;
@@ -193,9 +239,33 @@ nav a:hover {
   cursor: pointer;
   border-radius: 8px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  transition: transform 0.3s;
-  flex: 0 0 calc(33% - 20px); /* Two projects in a row with margin */
+  transition: transform 0.3s, box-shadow 0.3s, border-color 0.3s;
+  flex: 0 0 calc(33% - 20px);
   max-width: calc(33% - 20px);
+  border: 2px solid black; /* Black border */
+  background-color: #ffffff; /* Change background color */
+}
+
+.project::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transition: background-color 0.3s;
+  background-color: rgba(0, 0, 0, 0); /* Initial transparent layer */
+}
+
+.project:hover {
+  transform: scale(1.05); /* Scale effect on hover */
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2); /* Increase shadow on hover */
+  border-color: #000; /* Change border color on hover */
+}
+
+.project:hover::after {
+  background-color: rgba(0, 0, 0, 0.2); /* Change background color on hover */
+  /* Adjust the RGBA values to get your desired color */
 }
 
 .project img {
@@ -254,13 +324,81 @@ nav a:hover {
 .project-details a {
   display: inline-block;
   padding: 10px 20px;
-  background-color: #3498db;
-  color: #fff;
+  background-color: #ffc500;
+  color: #000000;
   text-decoration: none;
   border-radius: 5px;
   font-weight: bold;
 }
 
 .project-details a:hover {
-  background-color: #2980b9;
+  background-color: #836400;
 }
+.footer {
+  text-align: center;
+  background-color: #f2f2f2;
+  padding: 20px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.icons {
+  display: flex;
+  align-items: center;
+}
+.footer-links {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+.footer-links a {
+  display: inline-block;
+  margin: 0 15px;
+}
+
+.footer-links img {
+  width: 30px; /* Adjust icon size */
+  height: 30px; /* Adjust icon size */
+}
+
+
+.project {
+  position: relative;
+  overflow: hidden;
+  margin: 10px;
+  cursor: pointer;
+  border-radius: 8px;
+  box-shadow: 0 5px 0 #ffc500; /* Darker color for bottom shadow */
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.project::before,
+.project::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 50%;
+  top: 0;
+  left: 0;
+  transition: opacity 0.2s;
+}
+
+
+
+.project::after {
+  background-color: rgba(0, 0, 0, 0.2); /* Dark color for bottom shadow */
+  z-index: -1;
+  bottom: 0;
+  transform: translateY(100%);
+}
+
+.project:hover {
+  transform: translateY(2px);
+  box-shadow: 0 3px 0 #ffc500; /* Adjust shadow on hover */
+}
+
+.project:hover::before,
+.project:hover::after {
+  opacity: 0; /* Hide pseudo-elements on hover */
+}
+
