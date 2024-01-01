@@ -412,3 +412,7 @@ header .footer-links {
 .logo {
   width: 25%;
 }
+nav {
+  text-align: center;
+  font-size: 19px;
+}
