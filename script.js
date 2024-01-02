@@ -13,7 +13,11 @@ function closeModal() {
 
 function filterProjects(category) {
   const projects = document.querySelectorAll(".project");
-
+  const btns = document.querySelectorAll("button");
+  btns.forEach((btn) => {
+    btn.classList.remove("active");
+  });
+  console.log(this);
   projects.forEach((project) => {
     const projectCategories = project
       .getAttribute("data-categories")
