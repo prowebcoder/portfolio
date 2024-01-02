@@ -9,7 +9,11 @@ textarea {
 }
 /* Define keyframes for the bounce animation */
 @keyframes bounce {
-  0%, 20%, 50%, 80%, 100% {
+  0%,
+  20%,
+  50%,
+  80%,
+  100% {
     transform: translateY(0);
   }
   40% {
@@ -161,7 +165,7 @@ button {
 
 button::before,
 button::after {
-  content: '';
+  content: "";
   position: absolute;
   width: 100%;
   height: 50%;
@@ -170,10 +174,7 @@ button::after {
   transition: opacity 0.2s;
 }
 
-
-
 button::after {
-  
   z-index: -1;
   bottom: 0;
   transform: translateY(100%);
@@ -247,7 +248,7 @@ nav a:hover {
 }
 
 .project::after {
-  content: '';
+  content: "";
   position: absolute;
   top: 0;
   left: 0;
@@ -361,7 +362,6 @@ nav a:hover {
   height: 30px; /* Adjust icon size */
 }
 
-
 .project {
   position: relative;
   overflow: hidden;
@@ -374,7 +374,7 @@ nav a:hover {
 
 .project::before,
 .project::after {
-  content: '';
+  content: "";
   position: absolute;
   width: 100%;
   height: 50%;
@@ -382,8 +382,6 @@ nav a:hover {
   left: 0;
   transition: opacity 0.2s;
 }
-
-
 
 .project::after {
   background-color: rgba(0, 0, 0, 0.2); /* Dark color for bottom shadow */
@@ -476,23 +474,23 @@ nav {
   .project {
     flex: 100%;
     max-width: 100%;
-}
-nav {
-  font-size: 12px;
-  display: none;
-}
-.logo {
-  width: auto;
-  margin: 0 auto;
-}
-header {
-  background-color: #ffc500;
-  color: #000000;
-  padding: 10px 20px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
+  }
+  nav {
+    font-size: 12px;
+    display: none;
+  }
+  .logo {
+    width: auto;
+    margin: 0 auto;
+  }
+  header {
+    background-color: #ffc500;
+    color: #000000;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 
   /* Adjust other styles as needed for smaller screens */
 }
@@ -506,22 +504,21 @@ header {
   .logo {
     width: auto;
     margin: 0 auto;
-}
-.categories button {
-  font-size: 10px;
-  padding: 8px 2px;
-  margin: 3px;
-}
+  }
+  .categories button {
+    font-size: 10px;
+    padding: 8px 2px;
+    margin: 3px;
+  }
   header {
-   
     display: flex;
     justify-content: center;
     align-items: center;
-}
+  }
   nav {
     font-size: 12px;
     display: none;
-}
+  }
   .logo img {
     width: 60px; /* Further reduce logo size */
   }
@@ -536,12 +533,11 @@ header {
   }
   header .footer-links {
     display: none;
-   
-}
-.project {
-  flex: 100%;
-  max-width: 100%;
-}
+  }
+  .project {
+    flex: 100%;
+    max-width: 100%;
+  }
 
   .ttclass {
     width: 90%; /* Further adjust text width */
@@ -552,7 +548,11 @@ header {
     font-size: 10px;
     padding: 8px 2px;
     margin: 3px;
-}
+  }
 
   /* Additional adjustments for even smaller screens */
+}
+span.highlight-bg {
+  background: #ffc500;
+  padding: 15px;
 }
