@@ -416,3 +416,143 @@ nav {
   text-align: center;
   font-size: 19px;
 }
+/* Your existing CSS */
+
+/* For screens smaller than 768px */
+@media (max-width: 768px) {
+  /* Adjusting header */
+  header {
+    padding: 10px; /* Add padding to the header */
+  }
+
+  .logo img {
+    width: 80px; /* Reduce logo size */
+  }
+
+  nav {
+    font-size: 14px; /* Reduce font size for navigation */
+  }
+
+  /* Adjusting profile section */
+  .profile {
+    flex-direction: column; /* Stack profile image and text vertically */
+    align-items: center; /* Center align items */
+  }
+
+  .profile img {
+    width: 70%; /* Adjust profile image width */
+    margin-bottom: 20px; /* Add spacing between image and text */
+  }
+
+  .ttclass {
+    width: 80%; /* Adjust text width */
+    font-size: 1.5rem; /* Adjust text size */
+    text-align: center; /* Center align text */
+  }
+
+  .categories {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 10px -5px; /* Negative margin to counteract button padding */
+  }
+
+  .categories button {
+    font-size: 14px;
+    padding: 10px 20px;
+    margin: 5px; /* Adjusted margin */
+    border: none;
+    border-radius: 5px;
+    background-color: #ffc500;
+    color: #000000;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+  }
+
+  .categories button:hover {
+    background-color: #836400;
+    color: #ffffff;
+  }
+  .project {
+    flex: 100%;
+    max-width: 100%;
+}
+nav {
+  font-size: 12px;
+  display: none;
+}
+.logo {
+  width: auto;
+  margin: 0 auto;
+}
+header {
+  background-color: #ffc500;
+  color: #000000;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+  /* Adjust other styles as needed for smaller screens */
+}
+
+/* For screens smaller than 480px */
+@media (max-width: 480px) {
+  /* Adjusting header */
+  header {
+    padding: 5px; /* Further reduce padding in header */
+  }
+  .logo {
+    width: auto;
+    margin: 0 auto;
+}
+.categories button {
+  font-size: 10px;
+  padding: 8px 2px;
+  margin: 3px;
+}
+  header {
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  nav {
+    font-size: 12px;
+    display: none;
+}
+  .logo img {
+    width: 60px; /* Further reduce logo size */
+  }
+
+  nav {
+    font-size: 12px; /* Further reduce font size for navigation */
+  }
+
+  /* Adjusting profile section */
+  .profile img {
+    width: 90%; /* Further adjust profile image width */
+  }
+  header .footer-links {
+    display: none;
+   
+}
+.project {
+  flex: 100%;
+  max-width: 100%;
+}
+
+  .ttclass {
+    width: 90%; /* Further adjust text width */
+    font-size: 10px; /* Further reduce text size */
+  }
+
+  .categories button {
+    font-size: 10px;
+    padding: 8px 2px;
+    margin: 3px;
+}
+
+  /* Additional adjustments for even smaller screens */
+}
