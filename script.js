@@ -11,13 +11,14 @@ function closeModal() {
   projectModal.style.display = "none";
 }
 
-function filterProjects(category) {
+function filterProjects(clickedButton, category) {
   const projects = document.querySelectorAll(".project");
   const btns = document.querySelectorAll("button");
   btns.forEach((btn) => {
     btn.classList.remove("active");
   });
-  console.log(this);
+  clickedButton.classList.add("active");
+  // console.log(clickedButton);
   projects.forEach((project) => {
     const projectCategories = project
       .getAttribute("data-categories")
