@@ -71,13 +71,14 @@ fetch('product.json')
 // Your existing filterProjects, showDetails, closeModal functions remain unchanged
 
 
-function showDetails(projectId, imageUrl) {
+function showDetails(projectId, popImage) {
   const projectModal = document.getElementById("projectModal");
   const modalImage = document.getElementById("modalImage");
 
-  modalImage.src = imageUrl;
+  modalImage.src = popImage; // Use the 'popImage' parameter here
   projectModal.style.display = "flex";
 }
+
 
 function closeModal() {
   const projectModal = document.getElementById("projectModal");
