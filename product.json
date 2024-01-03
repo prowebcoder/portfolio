@@ -1,57 +1,112 @@
 [
-    {
-      "name": "Smart4Change",
-      "details": "This is a description of Smart4Change. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-      "projId": "project1",
-      "link": "https://www.project1.com",
-      "categories": ["shopify", "ecommerce"],
-      "mainImage": "assets/smart4change.png",
-      "popImage": "assets/smart4change.png"
-    },
-    {
-      "name": "Dear Vinyl",
-      "details": "This is a description of Dear Vinyl. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-      "projId": "project2",
-      "link": "https://www.project2.com",
-      "categories": ["shopify", "ecommerce"],
-      "mainImage": "assets/dear vinyl.png",
-      "popImage": "assets/smart4change.png"
-    },
-    {
-      "name": "Our Cuffs",
-      "details": "This is a description of Our Cuffs. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-      "projId": "project3",
-      "link": "https://www.project3.com",
-      "categories": ["shopify"],
-      "mainImage": "assets/ourcuffs.png",
-      "popImage": "assets/smart4change.png"
-    },
-    {
-      "name": "P3 India",
-      "details": "This is a description of P3 India. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-      "projId": "project4",
-      "link": "https://www.project4.com",
-      "categories": ["shopify", "ecommerce"],
-      "mainImage": "assets/p3-india.png",
-      "popImage": "assets/smart4change.png"
-    },
-    {
-      "name": "Mayofoodz",
-      "details": "This is a description of Mayofoodz. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-      "projId": "project5",
-      "link": "https://www.project5.com",
-      "categories": ["shopify", "ecommerce"],
-      "mainImage": "assets/Mayofoodz.png",
-      "popImage": "assets/smart4change.png"
-    },
-    {
-      "name": "La Belle",
-      "details": "This is a description of La Belle. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-      "projId": "project6",
-      "link": "https://www.project6.com",
-      "categories": ["shopify", "ecommerce"],
-      "mainImage": "assets/labelle.png",
-      "popImage": "assets/smart4change.png"
-    }
-  ]
-  
+  {
+    "name": "Black Tree",
+    "details": "",
+    "projId": "project1",
+    "link": "https://blacktreelab.co/",
+    "categories": ["shopify", "ecommerce"],
+    "mainImage": "images/blacktreepng.png",
+    "popImage": "pop/blackmain.png"
+  },
+  {
+    "name": "Farm House",
+    "details": "",
+    "projId": "project2",
+    "link": "https://farmhousefreshgoods.com/",
+    "categories": ["shopify", "ecommerce"],
+    "mainImage": "images/farmhouse.png",
+    "popImage": "pop/farmhousemain.png"
+  },
+  {
+    "name": "Folk Lore",
+    "details": "",
+    "projId": "project3",
+    "link": "https://folklorelasninas.com",
+    "categories": ["shopify"],
+    "mainImage": "images/folkesb.png",
+    "popImage": "pop/folkmain.png"
+  },
+  {
+    "name": "Gravastar",
+    "details": "",
+    "projId": "project4",
+    "link": "https://www.gravastar.com/",
+    "categories": ["shopify", "ecommerce"],
+    "mainImage": "images/gravastar.png",
+    "popImage": "pop/gravastarmain.png"
+  },
+  {
+    "name": "MYOB Fashion",
+    "details": "",
+    "projId": "project5",
+    "link": "https://myobfashion.com/",
+    "categories": ["shopify", "ecommerce"],
+    "mainImage": "images/myob.png",
+    "popImage": "pop/myobmain.png"
+  },
+  {
+    "name": "Vision Pets",
+    "details": "",
+    "projId": "project6",
+    "link": "https://vision-pets.myshopify.com/",
+    "categories": ["shopify", "ecommerce"],
+    "mainImage": "images/pochy.png",
+    "popImage": "pop/pochymain.png"
+  },
+  {
+    "name": "Purifair",
+    "details": "",
+    "projId": "project7",
+    "link": "https://us.purifair.com/",
+    "categories": ["shopify", "ecommerce"],
+    "mainImage": "images/purifair.png",
+    "popImage": "pop/purifairmain.png"
+  },
+  {
+    "name": "Strikeman",
+    "details": "",
+    "projId": "project8",
+    "link": "https://www.strikeman.io/",
+    "categories": ["shopify", "ecommerce"],
+    "mainImage": "images/strikeman.png",
+    "popImage": "pop/strikemanmain.png"
+  },
+  {
+    "name": "Ted Wonti",
+    "details": "",
+    "projId": "project9",
+    "link": "https://tedwonti.com/",
+    "categories": ["shopify", "ecommerce"],
+    "mainImage": "images/ted.png",
+    "popImage": "pop/tedmain.png"
+  },
+  {
+    "name": "Zamst IT",
+    "details": "",
+    "projId": "project10",
+    "link": "https://zamst.us/",
+    "categories": ["shopify", "ecommerce"],
+    "mainImage": "images/zamst.png",
+    "popImage": "pop/zamstmain.png"
+  },
+
+  {
+    "name": "Dear Vinyl",
+    "details": "",
+    "projId": "project2",
+    "link": "https://www.dearvinyl.com/en",
+    "categories": ["shopify", "ecommerce"],
+    "mainImage": "images/dear vinyl.png",
+    "popImage": "pop/smart4change.png"
+  },
+
+  {
+    "name": "P3 India",
+    "details": "",
+    "projId": "project4",
+    "link": "https://p3india.com/",
+    "categories": ["shopify", "ecommerce"],
+    "mainImage": "images/p3-india.png",
+    "popImage": "pop/smart4change.png"
+  }
+]
