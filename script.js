@@ -27,10 +27,6 @@ function createProjectElements(projects) {
     const image = document.createElement('img');
     image.src = project.mainImage;
     image.alt = project.name + ' Thumbnail';
-    image.onclick = function() {
-      showDetails(project.projId, project.popImage); // Pass the 'popImage' parameter here
-     
-    };
 
     const overlay = document.createElement('div');
     overlay.classList.add('overlay');
@@ -58,9 +54,14 @@ function createProjectElements(projects) {
     projectElement.appendChild(overlay);
     projectElement.appendChild(projectDetails);
 
+    projectElement.addEventListener('click', function() {
+      showDetails(project.projId, project.popImage);
+    });
+
     portfolioContainer.appendChild(projectElement);
   });
 }
+
 
 
     // Use the data fetched to create categories and projects dynamically
