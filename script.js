@@ -29,6 +29,7 @@ function createProjectElements(projects) {
     image.alt = project.name + ' Thumbnail';
     image.onclick = function() {
       showDetails(project.projId, project.popImage); // Pass the 'popImage' parameter here
+      console.log(image);
     };
 
     const overlay = document.createElement('div');
