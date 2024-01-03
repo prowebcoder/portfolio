@@ -1,3 +1,76 @@
+// Fetch the product data from product.json
+fetch('product.json')
+  .then(response => response.json())
+  .then(data => {
+    const categoriesContainer = document.getElementById('categories');
+    const portfolioContainer = document.getElementById('portfolioContainer');
+
+    // Function to create category buttons
+    function createCategoryButtons(categories) {
+      categories.forEach(category => {
+        const button = document.createElement('button');
+        button.textContent = category;
+        button.onclick = function() {
+          filterProjects(this, category);
+        };
+        categoriesContainer.appendChild(button);
+      });
+    }
+
+    // Function to create project elements
+    function createProjectElements(projects) {
+      projects.forEach(project => {
+        const projectElement = document.createElement('div');
+        projectElement.classList.add('project');
+        projectElement.setAttribute('data-categories', project.categories.join(','));
+
+        const image = document.createElement('img');
+        image.src = project.mainImage;
+        image.alt = project.name + ' Thumbnail';
+        image.onclick = function() {
+          showDetails(project.projId, project.popImage);
+        };
+
+        const overlay = document.createElement('div');
+        overlay.classList.add('overlay');
+
+        const projectDetails = document.createElement('div');
+        projectDetails.classList.add('project-details');
+        projectDetails.id = `${project.projId}-details`;
+
+        const heading = document.createElement('h2');
+        heading.textContent = project.name;
+
+        const description = document.createElement('p');
+        description.textContent = project.details;
+
+        const link = document.createElement('a');
+        link.href = project.link;
+        link.target = '_blank';
+        link.textContent = 'Visit Project';
+
+        projectDetails.appendChild(heading);
+        projectDetails.appendChild(description);
+        projectDetails.appendChild(link);
+
+        projectElement.appendChild(image);
+        projectElement.appendChild(overlay);
+        projectElement.appendChild(projectDetails);
+
+        portfolioContainer.appendChild(projectElement);
+      });
+    }
+
+    // Use the data fetched to create categories and projects dynamically
+    const categories = [...new Set(data.flatMap(project => project.categories))];
+    createCategoryButtons(categories);
+    createProjectElements(data);
+  })
+  .catch(error => console.error('Error fetching data:', error));
+
+// Your existing filterProjects, showDetails, closeModal functions remain unchanged
+
+
 function showDetails(projectId, imageUrl) {
   const projectModal = document.getElementById("projectModal");
   const modalImage = document.getElementById("modalImage");

@@ -1,0 +1,57 @@
+[
+    {
+      "name": "Smart4Change",
+      "details": "This is a description of Smart4Change. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "projId": "project1",
+      "link": "https://www.project1.com",
+      "categories": ["shopify", "ecommerce"],
+      "mainImage": "assets/smart4change.png",
+      "popImage": "xyz.com"
+    },
+    {
+      "name": "Dear Vinyl",
+      "details": "This is a description of Dear Vinyl. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "projId": "project2",
+      "link": "https://www.project2.com",
+      "categories": ["shopify", "ecommerce"],
+      "mainImage": "assets/dear vinyl.png",
+      "popImage": "xyz.com"
+    },
+    {
+      "name": "Our Cuffs",
+      "details": "This is a description of Our Cuffs. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "projId": "project3",
+      "link": "https://www.project3.com",
+      "categories": ["shopify"],
+      "mainImage": "assets/ourcuffs.png",
+      "popImage": "xyz.com"
+    },
+    {
+      "name": "P3 India",
+      "details": "This is a description of P3 India. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "projId": "project4",
+      "link": "https://www.project4.com",
+      "categories": ["shopify", "ecommerce"],
+      "mainImage": "assets/p3-india.png",
+      "popImage": "xyz.com"
+    },
+    {
+      "name": "Mayofoodz",
+      "details": "This is a description of Mayofoodz. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "projId": "project5",
+      "link": "https://www.project5.com",
+      "categories": ["shopify", "ecommerce"],
+      "mainImage": "assets/Mayofoodz.png",
+      "popImage": "xyz.com"
+    },
+    {
+      "name": "La Belle",
+      "details": "This is a description of La Belle. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "projId": "project6",
+      "link": "https://www.project6.com",
+      "categories": ["shopify", "ecommerce"],
+      "mainImage": "assets/labelle.png",
+      "popImage": "xyz.com"
+    }
+  ]
+  
