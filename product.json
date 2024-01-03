@@ -6,7 +6,7 @@
       "link": "https://www.project1.com",
       "categories": ["shopify", "ecommerce"],
       "mainImage": "assets/smart4change.png",
-      "popImage": "xyz.com"
+      "popImage": "assets/smart4change.png"
     },
     {
       "name": "Dear Vinyl",
@@ -15,7 +15,7 @@
       "link": "https://www.project2.com",
       "categories": ["shopify", "ecommerce"],
       "mainImage": "assets/dear vinyl.png",
-      "popImage": "xyz.com"
+      "popImage": "assets/smart4change.png"
     },
     {
       "name": "Our Cuffs",
@@ -24,7 +24,7 @@
       "link": "https://www.project3.com",
       "categories": ["shopify"],
       "mainImage": "assets/ourcuffs.png",
-      "popImage": "xyz.com"
+      "popImage": "assets/smart4change.png"
     },
     {
       "name": "P3 India",
@@ -33,7 +33,7 @@
       "link": "https://www.project4.com",
       "categories": ["shopify", "ecommerce"],
       "mainImage": "assets/p3-india.png",
-      "popImage": "xyz.com"
+      "popImage": "assets/smart4change.png"
     },
     {
       "name": "Mayofoodz",
@@ -42,7 +42,7 @@
       "link": "https://www.project5.com",
       "categories": ["shopify", "ecommerce"],
       "mainImage": "assets/Mayofoodz.png",
-      "popImage": "xyz.com"
+      "popImage": "assets/smart4change.png"
     },
     {
       "name": "La Belle",
@@ -51,7 +51,7 @@
       "link": "https://www.project6.com",
       "categories": ["shopify", "ecommerce"],
       "mainImage": "assets/labelle.png",
-      "popImage": "xyz.com"
+      "popImage": "assets/smart4change.png"
     }
   ]
   
