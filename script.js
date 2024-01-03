@@ -29,7 +29,7 @@ function createProjectElements(projects) {
     image.alt = project.name + ' Thumbnail';
     image.onclick = function() {
       showDetails(project.projId, project.popImage); // Pass the 'popImage' parameter here
-      console.log(image);
+     
     };
 
     const overlay = document.createElement('div');
@@ -76,7 +76,7 @@ function createProjectElements(projects) {
 function showDetails(projectId, popImage) {
   const projectModal = document.getElementById("projectModal");
   const modalImage = document.getElementById("modalImage");
-
+  console.log("image");
   modalImage.src = popImage; // Use the 'popImage' parameter here
   projectModal.style.display = "flex";
 }
