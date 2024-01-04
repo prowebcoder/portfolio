@@ -233,7 +233,7 @@ nav a:hover {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-  max-width: 80%;
+  max-width: 100%;
   margin: 20px auto;
 }
 
@@ -245,8 +245,8 @@ nav a:hover {
   border-radius: 8px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s, box-shadow 0.3s, border-color 0.3s;
-  flex: 0 0 calc(33% - 20px);
-  max-width: calc(33% - 20px);
+  flex: 0 0 calc(24% - 20px);
+  max-width: calc(24% - 20px);
   border: 2px solid black; /* Black border */
   background-color: #ffffff; /* Change background color */
 }
