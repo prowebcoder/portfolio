@@ -93,7 +93,7 @@
   {
     "name": "Dear Vinyl",
     "details": "",
-    "projId": "project2",
+    "projId": "project11",
     "link": "https://www.dearvinyl.com/en",
     "categories": ["shopify", "ecommerce"],
     "mainImage": "images/dear vinyl.png",
@@ -103,10 +103,334 @@
   {
     "name": "P3 India",
     "details": "",
-    "projId": "project4",
+    "projId": "project12",
     "link": "https://p3india.com/",
     "categories": ["shopify", "ecommerce"],
     "mainImage": "images/p3-india.png",
     "popImage": "pop/smart4change.png"
+  },
+  {
+    "name": "Amantys",
+    "details": "",
+    "projId": "project13",
+    "link": "https://diamdis.squarespace.com/",
+    "categories": ["squarespace"],
+    "mainImage": "images/amantys.png",
+    "popImage": "pop/amantysmain.png"
+  },
+  {
+    "name": "karllillrud",
+    "details": "",
+    "projId": "project14",
+    "link": "https:/www.karllillrud.com/",
+    "categories": ["squarespace"],
+    "mainImage": "images/karl.png",
+    "popImage": "pop/karlmain.png"
+  },
+  {
+    "name": "oneauthentic",
+    "details": "",
+    "projId": "project15",
+    "link": "https://oneauthenticheart.squarespace.com/",
+    "categories": ["squarespace"],
+    "mainImage": "images/oneauthentic.png",
+    "popImage": "pop/oneauthenticmain.png"
+  },
+  {
+    "name": "amy-ryman",
+    "details": "",
+    "projId": "project16",
+    "link": "https://amy-ryman.squarespace.com/",
+    "categories": ["squarespace"],
+    "mainImage": "images/stemgirl.png",
+    "popImage": "pop/stemgirlmain.png"
+  },
+  {
+    "name": "fieldmain",
+    "details": "",
+    "projId": "project17",
+    "link": "https://fieldstories.squarespace.com/",
+    "categories": ["squarespace"],
+    "mainImage": "images/fieldstories.png",
+    "popImage": "pop/fieldmain.png"
+  },
+  {
+    "name": "cbullardphotography",
+    "details": "",
+    "projId": "project18",
+    "link": "https://cbullardphotography.squarespace.com/",
+    "categories": ["squarespace"],
+    "mainImage": "images/christine.png",
+    "popImage": "pop/christine.main.png"
+  },
+  {
+    "name": "headlock",
+    "details": "",
+    "projId": "project19",
+    "link": "https://www.headlock.com/",
+    "categories": ["squarespace"],
+    "mainImage": "images/headlock.png",
+    "popImage": "pop/headlockmain.png"
+  },
+  {
+    "name": "nortonbasu",
+    "details": "",
+    "projId": "project20",
+    "link": "https://www.nortonbasu.com/",
+    "categories": ["squarespace"],
+    "mainImage": "images/nortonbasu.png",
+    "popImage": "pop/nortonbasumain.png"
+  },
+  {
+    "name": "william",
+    "details": "",
+    "projId": "project21",
+    "link": "https://william-malcolm-bqkx.squarespace.com/",
+    "categories": ["squarespace"],
+    "mainImage": "images/william.png",
+    "popImage": "pop/williammain.png"
+  },
+  {
+    "name": "mathis",
+    "details": "",
+    "projId": "project22",
+    "link": "https://mathis-kennington.squarespace.com/",
+    "categories": ["squarespace"],
+    "mainImage": "images/mathis.png",
+    "popImage": "pop/mathismain.png"
+  },
+  {
+    "name": "george",
+    "details": "",
+    "projId": "project23",
+    "link": "https://georgebraziller.squarespace.com/",
+    "categories": ["squarespace"],
+    "mainImage": "images/george.png",
+    "popImage": "pop/georgemain.png"
+  },
+  {
+    "name": "louis",
+    "details": "",
+    "projId": "project24",
+    "link": "https://louisweinstock.com/",
+    "categories": ["wordpress"],
+    "mainImage": "images/louis.png",
+    "popImage": "pop/louismain.png"
+  },
+  {
+    "name": "elevate",
+    "details": "",
+    "projId": "project25",
+    "link": "https://elevatecreativeinc.com/",
+    "categories": ["wordpress"],
+    "mainImage": "images/elevate.png",
+    "popImage": "pop/elevatemain.png"
+  },
+  {
+    "name": "wellbeing",
+    "details": "",
+    "projId": "project26",
+    "link": "https://thewellbeingcollective.com/",
+    "categories": ["squarespace"],
+    "mainImage": "images/wellbeing.png",
+    "popImage": "pop/wellbeingmain.png"
+  },
+  {
+    "name": "jonmiller",
+    "details": "",
+    "projId": "project27",
+    "link": "https://www.jonmiller.com/",
+    "categories": ["shopify"],
+    "mainImage": "images/jonmiller.png",
+    "popImage": "pop/jonmillermain.png"
+  },
+  {
+    "name": "bunker",
+    "details": "",
+    "projId": "project28",
+    "link": "https://www.bunkerwork.com/",
+    "categories": ["React"],
+    "mainImage": "images/bunker.png",
+    "popImage": "pop/bunkermain.png"
+  },
+  {
+    "name": "instrument",
+    "details": "",
+    "projId": "project29",
+    "link": "https://www.instrument.com/",
+    "categories": ["React"],
+    "mainImage": "images/instrument.png",
+    "popImage": "pop/instrumentmain.png"
+  },
+  {
+    "name": "outside",
+    "details": "",
+    "projId": "project30",
+    "link": "https://letsmoveschools.org/",
+    "categories": ["wordpress"],
+    "mainImage": "images/outside.png",
+    "popImage": "pop/outsidemain.png"
+  },
+  {
+    "name": "thecarcrush",
+    "details": "",
+    "projId": "project31",
+    "link": "http://thecarcrush.com/#",
+    "categories": ["squarespace"],
+    "mainImage": "images/carcrush.png",
+    "popImage": "pop/carcrushmain.png"
+  },
+  {
+    "name": "shindychen",
+    "details": "",
+    "projId": "project32",
+    "link": "https://www.shindychen.com/",
+    "categories": ["squarespace"],
+    "mainImage": "images/shindychan.png",
+    "popImage": "pop/shindychanmain.png"
+  },
+  {
+    "name": "Rev up",
+    "details": "",
+    "projId": "project33",
+    "link": "https://john-lehmann-jcut.squarespace.com/",
+    "categories": ["squarespace"],
+    "mainImage": "images/revup.png",
+    "popImage": "pop/revupmain.png"
+  },
+  {
+    "name": "dansimon",
+    "details": "",
+    "projId": "project34",
+    "link": "https://www.dansimon.me/",
+    "categories": ["squarespace"],
+    "mainImage": "images/dansimon.png",
+    "popImage": "pop/dansimonmain.png"
+  },
+  {
+    "name": "redcreative",
+    "details": "",
+    "projId": "project35",
+    "link": "https://www.redcreative.co.nz/",
+    "categories": ["squarespace"],
+    "mainImage": "images/redcreative.png",
+    "popImage": "pop/redcreativemain.png"
+  },
+  {
+    "name": "Paragon",
+    "details": "",
+    "projId": "project36",
+    "link": "https://ritesh-dhiman-xk3y.squarespace.com/",
+    "categories": ["squarespace"],
+    "mainImage": "images/paragon.png",
+    "popImage": "pop/paragonmain.png"
+  },
+  {
+    "name": "terraseed",
+    "details": "",
+    "projId": "project37",
+    "link": "https://terraseed-v3.myshopify.com/",
+    "categories": ["squarespace"],
+    "mainImage": "images/terraseed.png",
+    "popImage": "pop/terraseedmain.png"
+  },
+  {
+    "name": "studiodeve",
+    "details": "",
+    "projId": "project38",
+    "link": "https://studiodeve.com/",
+    "categories": ["shopify"],
+    "mainImage": "images/studiodeve.png",
+    "popImage": "pop/studiodevemain.png"
+  },
+  {
+    "name": "vision-pets",
+    "details": "",
+    "projId": "project39",
+    "link": "https://vision-pets.myshopify.com/",
+    "categories": ["shopify"],
+    "mainImage": "images/vision-pets.png",
+    "popImage": "pop/vision-petsmain.png"
+  },
+  {
+    "name": "myobfashion",
+    "details": "",
+    "projId": "project40",
+    "link": "https://myobfashion.com/",
+    "categories": ["shopify"],
+    "mainImage": "images/myobfashion.png",
+    "popImage": "pop/myobfashionmain.png"
+  },
+  {
+    "name": "goli",
+    "details": "",
+    "projId": "project41",
+    "link": "https://goli.com/",
+    "categories": ["shopify"],
+    "mainImage": "images/goli.png",
+    "popImage": "pop/golimain.png"
+  },
+  {
+    "name": "tenzo",
+    "details": "",
+    "projId": "project42",
+    "link": "https://tenzotea.co/",
+    "categories": ["shopify"],
+    "mainImage": "images/tenzo.png",
+    "popImage": "pop/tenzomain.png"
+  },
+  {
+    "name": "tmplmain",
+    "details": "",
+    "projId": "project43",
+    "link": "https://www.tmpl.care/",
+    "categories": ["shopify"],
+    "mainImage": "images/tmpl.png",
+    "popImage": "pop/tmplmain.png"
+  },
+  {
+    "name": "avecdrinks",
+    "details": "",
+    "projId": "project44",
+    "link": "https://avecdrinks.com/",
+    "categories": ["shopify"],
+    "mainImage": "images/avec.png",
+    "popImage": "pop/avecmain.png"
+  },
+  {
+    "name": "rheal",
+    "details": "",
+    "projId": "project45",
+    "link": "https://rhealsuperfoods.com/",
+    "categories": ["shopify"],
+    "mainImage": "images/rheal.png",
+    "popImage": "pop/.rhealmain.png"
+  },
+  {
+    "name": "notorious",
+    "details": "",
+    "projId": "project46",
+    "link": "https://notoriousnooch.co/",
+    "categories": ["shopify"],
+    "mainImage": "images/notorious.png",
+    "popImage": "pop/notoriousmain.png"
+  },
+  {
+    "name": "frontman",
+    "details": "",
+    "projId": "project47",
+    "link": "https://befrontman.com/",
+    "categories": ["squarespace"],
+    "mainImage": "images/frontman.png",
+    "popImage": "pop/frontmanmain.png"
+  },
+  {
+    "name": "homedough",
+    "details": "",
+    "projId": "project48",
+    "link": "https://homedough.com/",
+    "categories": ["shopify"],
+    "mainImage": "images/homedough.png",
+    "popImage": "pop/homedoughmain.png"
   }
 ]
