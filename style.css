@@ -248,7 +248,7 @@ nav a:hover {
   transition: transform 0.3s, box-shadow 0.3s, border-color 0.3s;
   flex: 0 0 calc(24% - 20px);
   max-width: calc(24% - 20px);
-  border: 2px solid black; /* Black border */
+  border: 1px solid black; /* Black border */
   background-color: #ffffff; /* Change background color */
 }
 
@@ -377,7 +377,7 @@ nav a:hover {
   margin: 10px;
   cursor: pointer;
   border-radius: 8px;
-  box-shadow: 0 5px 0 #ffc500; /* Darker color for bottom shadow */
+  box-shadow: 6px 6px 0px #ffc500;
   transition: transform 0.2s, box-shadow 0.2s;
 }
 
