@@ -48,14 +48,14 @@ function createProjectElements(projects) {
     description.textContent = project.details;
 
     const link = document.createElement('a');
-    link.classList.add = "websitelink";
+    link.classList.add("websitelink");
     link.href = project.link;
     link.target = '_blank';
     link.textContent = 'Website';
 
     const linkimg = document.createElement('a');
     linkimg.href = project.link;
-    linkimg.classList.add = "projectlink";
+    linkimg.classList.add("projectlink");
     linkimg.target = '_blank';
     linkimg.textContent = 'View Project';
 
