@@ -240,7 +240,7 @@
     "details": "",
     "projId": "project27",
     "link": "https://www.jonmiller.com/",
-    "categories": ["Squarespace"],
+    "categories": ["squarespace"],
     "mainImage": "images/jonmiller.png",
     "popImage": "pop/jonmillermain.png"
   },
@@ -330,7 +330,7 @@
     "details": "",
     "projId": "project37",
     "link": "https://terraseed-v3.myshopify.com/",
-    "categories": ["squarespace"],
+    "categories": ["shopify"],
     "mainImage": "images/terraseed.png",
     "popImage": "pop/terraseedmain.png"
   },
