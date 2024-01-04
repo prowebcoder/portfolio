@@ -430,7 +430,7 @@
     "projId": "project49",
     "link": "https://homedough.com/",
     "categories": ["shopify"],
-    "mainImage": "images/anorakonline.png",
+    "mainImage": "images/anarkonline.png",
     "popImage": "pop/anorakonlinemain.png"
   },
   {
@@ -469,15 +469,7 @@
     "mainImage": "images/lavaporwholesale.png",
     "popImage": "pop/lavaporwholesalemain.png"
   },
-  {
-    "name": "Lien Design",
-    "details": "",
-    "projId": "project54",
-    "link": "https://homedough.com/",
-    "categories": ["shopify"],
-    "mainImage": "images/liendesign.png",
-    "popImage": "pop/liendesignmain.png"
-  },
+ 
   {
     "name": "Trompe loeil",
     "details": "",
