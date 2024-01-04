@@ -22,7 +22,7 @@
     "details": "",
     "projId": "project3",
     "link": "https://folklorelasninas.com",
-    "categories": ["shopify"],
+    "categories": ["shopify", "ecommerce"],
     "mainImage": "images/folkesb.png",
     "popImage": "pop/folkmain.png"
   },
@@ -222,7 +222,7 @@
     "details": "",
     "projId": "project25",
     "link": "https://elevatecreativeinc.com/",
-    "categories": ["wordpress"],
+    "categories": ["wordpress", "ecommerce"],
     "mainImage": "images/elevate.png",
     "popImage": "pop/elevatemain.png"
   },
@@ -240,7 +240,7 @@
     "details": "",
     "projId": "project27",
     "link": "https://www.jonmiller.com/",
-    "categories": ["shopify"],
+    "categories": ["Squarespace"],
     "mainImage": "images/jonmiller.png",
     "popImage": "pop/jonmillermain.png"
   },
@@ -267,7 +267,7 @@
     "details": "",
     "projId": "project30",
     "link": "https://letsmoveschools.org/",
-    "categories": ["wordpress"],
+    "categories": ["wordpress", "ecommerce"],
     "mainImage": "images/outside.png",
     "popImage": "pop/outsidemain.png"
   },
@@ -339,7 +339,7 @@
     "details": "",
     "projId": "project38",
     "link": "https://studiodeve.com/",
-    "categories": ["shopify"],
+    "categories": ["shopify", "ecommerce"],
     "mainImage": "images/studiodeve.png",
     "popImage": "pop/studiodevemain.png"
   },
@@ -348,18 +348,9 @@
     "details": "",
     "projId": "project39",
     "link": "https://vision-pets.myshopify.com/",
-    "categories": ["shopify"],
+    "categories": ["shopify", "ecommerce"],
     "mainImage": "images/vision-pets.png",
     "popImage": "pop/vision-petsmain.png"
-  },
-  {
-    "name": "myobfashion",
-    "details": "",
-    "projId": "project40",
-    "link": "https://myobfashion.com/",
-    "categories": ["shopify"],
-    "mainImage": "images/myobfashion.png",
-    "popImage": "pop/myobfashionmain.png"
   },
   {
     "name": "goli",
@@ -432,5 +423,68 @@
     "categories": ["shopify"],
     "mainImage": "images/homedough.png",
     "popImage": "pop/homedoughmain.png"
+  },
+  {
+    "name": "Anorak online",
+    "details": "",
+    "projId": "project49",
+    "link": "https://homedough.com/",
+    "categories": ["shopify"],
+    "mainImage": "images/anorakonline.png",
+    "popImage": "pop/anorakonlinemain.png"
+  },
+  {
+    "name": "AP8",
+    "details": "",
+    "projId": "project50",
+    "link": "https://homedough.com/",
+    "categories": ["shopify"],
+    "mainImage": "images/ap8.png",
+    "popImage": "pop/ap8main.png"
+  },
+  {
+    "name": "Flameless candles",
+    "details": "",
+    "projId": "project51",
+    "link": "https://homedough.com/",
+    "categories": ["shopify"],
+    "mainImage": "images/flamelesscandles.png",
+    "popImage": "pop/flamelesscandlesmain.png"
+  },
+  {
+    "name": "Harbour 9",
+    "details": "",
+    "projId": "project52",
+    "link": "https://homedough.com/",
+    "categories": ["shopify"],
+    "mainImage": "images/harbour9.png",
+    "popImage": "pop/harbour9main.png"
+  },
+  {
+    "name": "Lavapor Wholesale",
+    "details": "",
+    "projId": "project53",
+    "link": "https://homedough.com/",
+    "categories": ["shopify"],
+    "mainImage": "images/lavaporwholesale.png",
+    "popImage": "pop/lavaporwholesalemain.png"
+  },
+  {
+    "name": "Lien Design",
+    "details": "",
+    "projId": "project54",
+    "link": "https://homedough.com/",
+    "categories": ["shopify"],
+    "mainImage": "images/liendesign.png",
+    "popImage": "pop/liendesignmain.png"
+  },
+  {
+    "name": "Trompe loeil",
+    "details": "",
+    "projId": "project55",
+    "link": "https://homedough.com/",
+    "categories": ["shopify"],
+    "mainImage": "images/trompeloeil.png",
+    "popImage": "pop/trompeloeilmain.png"
   }
 ]
