@@ -50,12 +50,16 @@ function createProjectElements(projects) {
     const link = document.createElement('a');
     link.href = project.link;
     link.target = '_blank';
-    link.textContent = 'Visit Project';
+    link.textContent = 'Website';
+    const linkimg = document.createElement('a');
+    linkimg.href = project.link;
+    linkimg.target = '_blank';
+    linkimg.textContent = 'View Project';
 
     projectDetails.appendChild(heading);
     projectDetails.appendChild(description);
     projectDetails.appendChild(link);
-
+    projectDetails.appendChild(linkimg);
     projectElement.appendChild(image);
     projectElement.appendChild(overlay);
     projectElement.appendChild(projectDetails);

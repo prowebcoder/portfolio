@@ -145,6 +145,7 @@ img#modalImage {
   border-radius: 5px;
   font-size: 18px;
   border: 1px solid #000;
+  text-transform: capitalize;
 }
 
 .categories button:hover {
