@@ -311,6 +311,7 @@ nav a:hover {
   color: #fff;
   opacity: 0;
   transition: opacity 0.3s;
+  width: 100%;
 }
 
 .project:hover .project-details {
@@ -328,13 +329,16 @@ nav a:hover {
 }
 
 .project-details a {
-  display: inline-block;
-  padding: 10px 20px;
+  display: inline-flex;
+  padding: 9px 6px;
   background-color: #ffc500;
   color: #000000;
   text-decoration: none;
-  border-radius: 5px;
+  border-radius: 3px;
   font-weight: bold;
+  font-size: 12px;
+  gap: 10px;
+  margin: 7px;
 }
 
 .project-details a:hover {

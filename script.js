@@ -67,7 +67,7 @@ function createProjectElements(projects) {
     projectElement.appendChild(overlay);
     projectElement.appendChild(projectDetails);
 
-    projectElement.addEventListener('click', function() {
+    linkimg.addEventListener('click', function() {
       showDetails(project.projId, project.popImage);
     });
 
