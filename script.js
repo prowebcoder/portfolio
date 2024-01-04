@@ -5,8 +5,14 @@ fetch('product.json')
     const categoriesContainer = document.getElementById('categories');
     const portfolioContainer = document.getElementById('portfolioContainer');
 
-    // Function to create category buttons
     function createCategoryButtons(categories) {
+      const allButton = document.createElement('button');
+      allButton.textContent = 'All';
+      allButton.onclick = function() {
+        filterProjects(this, 'all');
+      };
+      categoriesContainer.appendChild(allButton);
+    
       categories.forEach(category => {
         const button = document.createElement('button');
         button.textContent = category;
@@ -16,7 +22,7 @@ fetch('product.json')
         categoriesContainer.appendChild(button);
       });
     }
-
+    
 // Function to create project elements
 function createProjectElements(projects) {
   projects.forEach(project => {
