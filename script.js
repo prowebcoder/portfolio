@@ -56,7 +56,6 @@ function createProjectElements(projects) {
     const linkimg = document.createElement('a');
     linkimg.href = "#";
     linkimg.classList.add("projectlink");
-    linkimg.target = '_blank';
     linkimg.textContent = 'View Project';
 
     projectDetails.appendChild(heading);
