@@ -92,10 +92,12 @@
       .resume .resume__header,
       .resume .resume__section {
         font-family: "Open Sans", sans-serif;
-        font-size: 0.95em;
+        font-size: 1em;
       }
       .resume .resume__header {
-        padding: 6em 4em 0;
+        padding: 5em 2em 2rem;
+        background: #f4f4f4;
+        margin-bottom: 0rem !important;
       }
       .resume .resume__section {
         margin-bottom: 4em;
@@ -128,17 +130,19 @@
       }
       .resume .resume__columns {
         overflow: hidden;
-        padding: 4em;
-        padding-top: 0;
       }
       .resume .resume__main {
         float: left;
-        width: 75%;
-        padding-right: 6em;
+        width: 70%;
+        padding-right: 3em;
+        padding: 2rem;
       }
       .resume .resume__side {
         float: left;
-        width: 25%;
+        width: 30%;
+        background: #2196f324;
+        height: 100%;
+        padding: 2rem 1rem;
       }
       .resume .other-info p > b {
         color: #555;
@@ -193,7 +197,7 @@
       .resume .extra-info small {
         color: #666;
         display: inline-block;
-        font-size: 0.7em;
+        font-size: 0.9em;
       }
       .resume .extra-details,
       .resume .extra-details__progress {
@@ -230,6 +234,10 @@
           display: none;
         }
       }
+      body.A4 .sheet {
+        width: 210mm;
+        height: 350mm;
+      }
     </style>
   </head>
 
@@ -242,22 +250,29 @@
       <div class="two-column resume">
         <section class="resume__section resume__header">
           <div class="resume__content">
-            <h1>Rahul Dhiman</h1>
-            <div class="info-item">
-              <span class="info-label"
-                ><i class="fa fa-location-arrow"></i
-              ></span>
-              <span class="info-text"
-                >Dharamshala, Himachal Pradesh, India</span
-              >
+            <div>
+              <h1>Rahul Dhiman</h1>
+              <div class="info-item">
+                <span class="info-label"
+                  ><i class="fa fa-location-arrow"></i
+                ></span>
+                <span class="info-text"
+                  >Dharamshala, Himachal Pradesh, India</span
+                >
+              </div>
+              <div class="info-item">
+                <span class="info-label"><i class="fa fa-envelope"></i></span>
+                <span class="info-text">rahul@prowebcoder.com</span>
+              </div>
+              <div class="info-item">
+                <span class="info-label"><i class="fa fa-phone"></i></span>
+                <span class="info-text">+91 - 6239046167</span>
+              </div>
             </div>
-            <div class="info-item">
-              <span class="info-label"><i class="fa fa-envelope"></i></span>
-              <span class="info-text">rahul@prowebcoder.com</span>
-            </div>
-            <div class="info-item">
-              <span class="info-label"><i class="fa fa-phone"></i></span>
-              <span class="info-text">+91 - 6239046167</span>
+            <div>
+              <div class="info_image">
+                <img src="assets/img.jpeg" width="120px" height="120px" />
+              </div>
             </div>
           </div>
         </section>
