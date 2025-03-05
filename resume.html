@@ -248,6 +248,11 @@
         height: 120px;
         border-radius: 50%;
         overflow: hidden;
+        border: 1px solid #00000029;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: #fff;
       }
     </style>
   </head>
@@ -427,7 +432,7 @@
                 <div class="resume__text">
                   <div class="extra">
                     <div class="extra-info">
-                      Frontend<br /><small
+                      <b>Frontend</b><br /><small
                         >HTML, CSS, JavaScript, ReactJS, Next.js, AngularJS,
                         jQuery, Webflow</small
                       >
@@ -435,7 +440,7 @@
                   </div>
                   <div class="extra">
                     <div class="extra-info">
-                      Backend<br /><small
+                      <b>Backend</b><br /><small
                         >Node.js, Express.js, Python, GraphQL, REST API,
                         Prisma</small
                       >
@@ -448,14 +453,14 @@
                   </div>
                   <div class="extra">
                     <div class="extra-info">
-                      E-commerce & CMS<br /><small
+                      <b>E-commerce & CMS</b> <br /><small
                         >Shopify, WordPress, Squarespace</small
                       >
                     </div>
                   </div>
                   <div class="extra">
                     <div class="extra-info">
-                      Tools & Technologies<br /><small
+                      <b>Tools & Technologies</b><br /><small
                         >Git, Figma, Webflow, Photoshop</small
                       >
                     </div>
@@ -483,7 +488,7 @@
                   <div class="extra-details">
                     <div
                       class="extra-details__progress"
-                      style="width: 85%"
+                      style="width: 100%"
                     ></div>
                   </div>
                 </div>
@@ -496,9 +501,8 @@
   </body>
 
   <script>
-    const handlePrint = () => window.print();
-    const btnPrint = document.getElementById("print");
-    console.log(btnPrint);
-    // (onClick='handlePrint()')
+    document.getElementById("print").addEventListener("click", function () {
+      window.print();
+    });
   </script>
 </html>
